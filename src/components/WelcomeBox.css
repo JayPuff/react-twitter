@@ -1,0 +1,100 @@
+.WelcomeBox {
+    display:flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items:center;
+
+    flex: 0 0 auto;
+
+    height: 600px;
+    width: 600px;
+    /*min-height:500px;*/
+    /* How to center something properly in center? LEARN FLEX BOX */
+    margin:auto;
+    border:1px solid #d6d6d6;
+    border-radius:5px;
+    background-color:#D2D0C7;
+    box-shadow:-2px 2px 4px #8C8C8C;
+}
+
+.WelcomeBox img {
+    flex: 0 0 auto;
+    align-self:flex-start;
+    margin:20px auto 0px auto;
+    width:285px;
+    height:135px;
+}
+
+.WelcomeBox-desc {
+    flex: 0 0 auto;
+
+    /* display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items:center;
+    align-content:center; */
+
+    text-align: center;
+
+    margin:5px auto 0px auto;
+    width:90%;
+    height:auto;
+
+    font-size:1.0em;
+    color:#5f3a72;
+}
+
+.WelcomeBox .twitter-sign-in {
+    flex: 0 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    margin:auto auto 0px auto;
+    /* width:285px;
+    height:135px; */
+    width:210px;
+    height:80px;
+    background-color:#779d9e;
+    border:1px solid #779d9e;
+    border-radius:4px;
+
+    cursor:pointer;
+    color:#354656;
+
+    font-size:1.5em;
+}
+
+.WelcomeBox .twitter-sign-in:hover {
+    background-color:#7FA2A3;
+    border:1px solid #354656;
+    color:black;
+}
+
+.WelcomeBox .twitter-sign-in-desc {
+    flex: 0 0 auto;
+
+    margin:3px auto auto auto;
+    width:300px;
+    height:45px;
+
+    text-align:center;
+    color:#354656;
+
+    font-size:0.85em;
+}
+
+@media (max-width: 620px) and (orientation: portrait) {
+    .WelcomeBox {
+        height: 90%;
+        width: 85%;
+        font-size:18px;
+    }
+
+    .WelcomeBox img {
+        margin-top:10px;
+        width:80%;
+        height:auto;
+    }
+}
