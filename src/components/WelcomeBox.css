@@ -64,7 +64,9 @@
     color:#354656;
 
     font-size:1.5em;
+    transition: background-color 0.3s, border 0.3s, color 0.3s;
 }
+
 
 .WelcomeBox .twitter-sign-in:hover {
     background-color:#7FA2A3;
