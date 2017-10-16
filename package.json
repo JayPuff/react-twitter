@@ -1,8 +1,11 @@
+
 {
   "name": "react-twitter",
   "version": "0.1.0",
   "private": true,
-  "homepage":"Z:/Web/react-twitter/build",
+  "homepage":"./",
+  "_test_homepage":"Z:/Web/react-twitter/build",
+  "_build_homepage":"http://192.168.0.148",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
